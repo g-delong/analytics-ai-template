@@ -14,7 +14,7 @@ conda create -n {{cookiecutter.project_slug}} python=3.9
 conda activate {{cookiecutter.project_slug}}
 # Install requirements & integrations
 make setup
-# Connect to zenml server 
+# Initialize zenml for the project 
 zenml init
 ```
 
@@ -26,10 +26,23 @@ python run.py
 ```
 
 Refactor the pipeline and steps, and add logic inside the
-`src` directory as needed for your project. 
+`src` directory as needed for your project. Make sure to save your work with Git!
+
+```
+# Initialize git
+git init
+
+# If default branch is named master, rename it main
+git branch -m master main
+
+# Save your changes
+git add -A
+
+# Commit!
+git commit -m "Initial commit"
+```
 
 If a remote zenml server is available, you can connect to the server.
-
 ```
 zenml connect --url http://ip-address:port --username default --password ""
 ```
