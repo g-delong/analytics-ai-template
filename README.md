@@ -9,5 +9,5 @@ Cookiecutter is a CLI tool used to create projects based on templates. It suppor
 ### Use Template
 This is runs cookiecutter and creates a project based on this template and the response from questions asked on the CLI, such as: ```author```,```project_name```,```open_source_license``` and others.
 ```
-cookiecutter https://github.com/MLOPsStudyGroup/mlops-template.git
+cookiecutter https://github.com/g-delong/analytics-ai-template.git
 ```
