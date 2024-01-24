@@ -1,0 +1,5 @@
+jupyter
+black[jupyter] 
+ruff
+flake8
+isort

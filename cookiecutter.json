@@ -1,0 +1,7 @@
+{
+    "project_name": "Geisinger AI Lab Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "project_python_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_version": "v0.1",
+    "author": "Geisinger AI Lab"
+}
