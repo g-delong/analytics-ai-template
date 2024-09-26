@@ -3,7 +3,7 @@ from datetime import datetime as dt
 
 import click
 
-from src.pipelines.prod_pipeline import {{cookiecutter.project_python_slug}}_pipeline
+from src.pipelines.inference_pipeline_pipeline import {{cookiecutter.project_python_slug}}_pipeline
 
 
 @click.command(
